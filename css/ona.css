@@ -1,0 +1,76 @@
+@font-face{
+    font-family: "tale";
+    src: url(../fonts/tale.otf);
+}
+
+@font-face{
+    font-family: "arvo";
+    src: url(../fonts/Arvo-Regular.ttf);
+}
+
+@font-face{
+    font-family: "arvoB";
+    src: url(../fonts/Arvo-Bold.ttf);
+}
+
+@font-face{
+    font-family: "bebas";
+    src: url(../fonts/BebasNeue.otf);
+}
+
+.bebas{
+    font-family: "bebas";
+}
+
+p{
+    line-height: 22px;
+}
+
+#upper{
+    background-image: url(../images/connect.png);
+    font-family: helvetica;
+    padding-left: 15px;
+    font-size: 45px;
+}
+
+#lower{
+    background-image: url(../images/clean_textile.png);
+}
+
+.left{
+    float:left;
+    width: 65%;
+}
+
+.logo{
+    float: left;
+    width: 30%;
+}
+
+.right{
+    float:right;
+}
+
+.pad{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.floatTitle{
+    padding: 40px 0px 0px 0px;
+}
+
+.max{
+    max-width: 700px;
+}
+
+.layer{
+    display: inline-block;
+    margin-right:30px;
+}
+
+.info{
+    font-size: 15px;
+}
