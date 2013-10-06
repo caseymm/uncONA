@@ -37,6 +37,10 @@ p{
     background-image: url(../images/clean_textile.png);
 }
 
+.height{
+    height: 400px;
+}
+
 .left{
     float:left;
     width: 65%;
@@ -72,5 +76,17 @@ p{
 }
 
 .info{
-    font-size: 15px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 680px) {
+   .info{
+    font-size: 12px;
+} 
+}
+
+@media screen and (max-width: 600px) {
+   .info{
+    font-size: 10px;
+} 
 }
