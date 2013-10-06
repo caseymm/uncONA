@@ -76,17 +76,20 @@ p{
 }
 
 .info{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 @media screen and (max-width: 680px) {
    .info{
     font-size: 12px;
-} 
 }
-
-@media screen and (max-width: 600px) {
-   .info{
-    font-size: 10px;
-} 
+    .major{
+        display: none;
+    }
+    .year{
+        display: none;
+    }
+    .twitter{
+        display: none;
+    }
 }

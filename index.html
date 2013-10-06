@@ -55,7 +55,7 @@ function showInfo(gdata, tabletop){
 		}
 		
 
-                $('<tr id="' + gridID + '"><td class="info">' + name + '</td><td class="info">' + year + '</td><td class="info">' + major + '</td><td class="info"><a href="https://twitter.com/'+ twitter +'" target="blank">' + twitter + '</a></td><td class="info"><a href="mailto:'+ email +'">'+ email +'</a></td><td class="info">' + classes + '</td></tr>').appendTo('.listing');	
+                $('<tr id="' + gridID + '"><td class="info">' + name + '</td><td class="info year">' + year + '</td><td class="info major">' + major + '</td><td class="info twitter"><a href="https://twitter.com/'+ twitter +'" target="blank">' + twitter + '</a></td><td class="info"><a href="mailto:'+ email +'">'+ email +'</a></td><td class="info">' + classes + '</td></tr>').appendTo('.listing');	
             
 	});
 
@@ -201,9 +201,9 @@ function showInfo(gdata, tabletop){
                 <thead>
                     <tr>
                         <th>Name</th>
-                        <th>Year</th>
-                        <th>Major</th>
-                        <th>Twitter</th>
+                        <th class="year">Year</th>
+                        <th class="major">Major</th>
+                        <th class="twitter">Twitter</th>
                         <th>Email</th>
                         <th>Classes</th>
                     </tr>
